@@ -1,0 +1,39 @@
+item_id,category,name,price,is_popular,menu_type
+101,Brunch Mains,Arbutus Sunrise Benedict,18.5,TRUE,Brunch
+102,Brunch Mains,Granville Street Avocado Toast,16,TRUE,Brunch
+103,Brunch Mains,Pacific Salmon Hash,19.75,FALSE,Brunch
+104,Brunch Sides,Crispy Yukon Hash Browns,7.5,TRUE,Brunch
+105,Brunch Sides,Buttermilk Mini Waffles,9.25,FALSE,Brunch
+106,Brunch Mains,Capilano Lumberjack Plate,20,FALSE,Brunch
+107,Brunch Mains,Kitsilano Veggie Skillet,17.25,FALSE,Brunch
+108,Brunch Drinks,Cold Brew Maple Latte,6.75,TRUE,Brunch
+109,Brunch Drinks,Okanagan Peach Iced Tea,5.5,FALSE,Brunch
+110,Brunch Mains,Seawall Breakfast Burrito,17,TRUE,Brunch
+111,Brunch Sides,Smoked Bacon Strips,8.25,FALSE,Brunch
+112,Brunch Mains,False Creek Shakshuka,18.25,FALSE,Brunch
+113,Brunch Drinks,House-Squeezed Orange Juice,5.25,FALSE,Brunch
+114,Brunch Mains,English Bay Pancake Stack,16.75,TRUE,Brunch
+201,Lunch Mains,Broadway Crispy Chicken Burger,19.5,TRUE,Lunch
+202,Lunch Mains,Mount Pleasant Veggie Burger,18,FALSE,Lunch
+203,Lunch Mains,Coal Harbour Fish & Chips,21,TRUE,Lunch
+204,Lunch Bowls,West End Power Bowl,18.75,FALSE,Lunch
+205,Lunch Bowls,Gastown Teriyaki Rice Bowl,17.5,FALSE,Lunch
+206,Lunch Salads,Burrard Street Cobb Salad,17.25,FALSE,Lunch
+207,Lunch Salads,Queen Elizabeth Kale Caesar,16.5,TRUE,Lunch
+208,Lunch Sides,Truffle Shoestring Fries,8.75,TRUE,Lunch
+209,Lunch Sides,Charred Broccolini,7.25,FALSE,Lunch
+210,Lunch Drinks,House Lemon Iced Tea,4.75,FALSE,Lunch
+301,Dinner Mains,Stanley Park Sirloin,29,TRUE,Dinner
+302,Dinner Mains,Fraser Valley Roast Chicken,26.5,FALSE,Dinner
+303,Dinner Mains,Lion's Gate Mushroom Risotto,24.75,FALSE,Dinner
+304,Dinner Mains,Granville Island Salmon,30,TRUE,Dinner
+305,Dinner Mains,Commercial Drive Gnocchi,23.5,FALSE,Dinner
+306,Dinner Shareables,Burrata & Heirloom Tomatoes,19.25,FALSE,Dinner
+307,Dinner Shareables,Crispy Calamari Plate,18.5,TRUE,Dinner
+308,Dinner Shareables,Truffle Mac & Cheese Bites,17,FALSE,Dinner
+309,Dinner Desserts,North Shore Chocolate Torte,10.5,TRUE,Dinner
+310,Dinner Desserts,Salted Caramel Bread Pudding,9.75,FALSE,Dinner
+311,Dinner Desserts,Yaletown Cheesecake Slice,9.5,FALSE,Dinner
+312,Dinner Drinks,House Red Wine (6oz),11,FALSE,Dinner
+313,Dinner Drinks,Stanley Park Lager,8,FALSE,Dinner
+314,Dinner Drinks,Zero-Proof Citrus Spritz,7.5,TRUE,Dinner
