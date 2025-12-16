@@ -13,6 +13,8 @@ A Vancouver-based Restaurant 'Red Ember House' relies on Online Ordering apps, s
 - **Analysis Notebook** for answering established business questions as per the two insight areas above, showing analysis processes, SQL Queries, and brief notes on data outcomes.
 - **Executive Summary and Recommendations** (this README.md file) to provide a summary of data findings, insights, and recommendations for industry stakeholders for further decision-making.
 
+### Executive Summary
 
+<img src="images/restaurant_funnel_schema.png" alt="netflix_database" width="75%"/>
 
 
