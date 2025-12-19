@@ -79,7 +79,7 @@ WITH parsed AS (
 
     -- 1) Convert known formats into a real timestamp (data type)
     CASE
-      -- Already in the target format: "YYYY-MM-DD HH:MM"
+      -- Already "YYYY-MM-DD HH:MM", no change
       WHEN e."timestamp" ~ '^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$'
         THEN to_timestamp(e."timestamp", 'YYYY-MM-DD HH24:MI')
 
@@ -121,8 +121,9 @@ WITH parsed AS (
 SELECT
   parsed.*,
 
-  -- 2) Enforce "minute precision" and output as the strict string: "YYYY-MM-DD HH:MM"
+			/* removes seconds*/			/* Strictly Outputs */
   to_char(date_trunc('minute', parsed_ts), 'YYYY-MM-DD HH24:MI') AS timestamp_std
 
 FROM parsed;
+
 
