@@ -1,4 +1,4 @@
--- 1) EVENTS TABLE (UNCLEANED RAW EVENTS)
+-- 1) EVENTS TABLE
 -- CSV columns: session_id,user_id,event_type,item_id,timestamp,platform,device,area,order_value
 
 CREATE TABLE events_table (
@@ -12,10 +12,6 @@ CREATE TABLE events_table (
     area            VARCHAR(32),
     order_value     NUMERIC(8,2)           -- allows values up to 999,999.99
 );
-
--- (Optional but recommended later, after cleaning)
--- CREATE INDEX idx_events_session ON events_table(session_id);
--- CREATE INDEX idx_events_timestamp ON events_table("timestamp");
 
 
 -- 2) ITEMS TABLE
@@ -50,3 +46,4 @@ CREATE TABLE platform_metrics_table (
     commission_rate   NUMERIC(4,3)  NOT NULL,  -- e.g. 0.300
     avg_delivery_fee  NUMERIC(6,2)  NOT NULL   -- e.g. 4.99
 );
+
