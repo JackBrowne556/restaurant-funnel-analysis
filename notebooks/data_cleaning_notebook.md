@@ -23,6 +23,8 @@ Cleaning Efforts will be organized tackling each of these three issues found wit
 
 ## Cleaning Processes
 
+---
+
 ### Removing Duplicate Events
 
 A total of **1044 records** were found to be duplicates, which were removed, then the unique records were kept and created into a new table `events_unique`.
@@ -30,6 +32,8 @@ A total of **1044 records** were found to be duplicates, which were removed, the
 Used `ROWNUMBER()`, and `OVER / PARTITION BY` SQL Window Functions to identify duplicate events and exclude them from the query.
 
 `Removed Duplicates Query`
+
+---
 
 ### Standardizing timestamps 
 
@@ -55,6 +59,8 @@ So, I added another case statement which identifies these two conditions, which 
 
 After adding the 5th case statement which deals with the two unparsed attributes, all records now had standardized timestamps in the form of "YYYY-MM-DD HH:MM". 
 
+---
+
 ### Fixing Out-of-order Event Types
 
 Out-of-order event types is defined by the following:
@@ -68,6 +74,8 @@ Utilized two `CTEs`  with `CASE` statements, and `ROW NUMBER()`, `PARTITION BY` 
 
 `Whole Out-of-order Query`
 
+---
+
 ### Invalid Customer Funnels
 
 Several customer funnels were discovered to be missing previous funnel steps within a sequence, not following business logic. For example, an invalid funnel sequence would start with the customer reviewing the cart (review_cart), hence would be missing the steps in which the customer viewed the menu (menu_view) and added an item (item_added).
@@ -77,6 +85,8 @@ Since the point of this project is to analyze funnel and conversion rates, which
  I used three `CTEs` for the query, one for assigning numbers to the event types (as seen in 'fixing out-of-order event types), a `session_quality` CTE to identify metrics for a valid session, then finally `valid_sessions` to determine conditions for a valid session, which is when the number of distinct steps taken equals the maximum step in the customer funnel.
 
 `Whole invalid customer funnel query`
+
+---
 
 ## Conclusion
 
