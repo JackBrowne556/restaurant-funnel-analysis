@@ -63,10 +63,9 @@ After adding the 5th case statement which deals with the two unparsed attributes
 
 ### Fixing Out-of-order Event Types
 
-Out-of-order event types is defined by the following:
+Out-of-order event types are customer funnels that do not align with the business funnel:
 
-> **Customer Funnels that do not align with the business funnel:**
-	> menu_view → item_added → review_cart → payment_attempt → order_complete
+> **menu_view → item_added → review_cart → payment_attempt → order_complete**
 
 A total of of **639** Session IDs were found to have either regressed funnel order or illogical timestamps. 
 
