@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This markdown notebook will detail the cleaning efforts done to the `events.csv` dataset, which contains a 90-day event log, showing multiple sessions and customer funnel progress. Deliverables for this notebook includes a documentation log, SQL cleaning queries, and a finalized `.csv` ready for analysis.
+This markdown notebook will detail the cleaning efforts done to the `events.csv` dataset, which contains a 90-day event log, showing multiple sessions and customer funnel progress. Deliverables for this notebook includes SQL Cleaning Queries with descriptions and annotations, as well as a finalized `.csv` ready for analysis.
 
 Cleaning is done through SQL Queries (and NOT a spreadsheet software like Excel or Google Sheets) to preserve the original set of data while creating a cleaned view within the company database.
 
